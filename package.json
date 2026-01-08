@@ -1,0 +1,39 @@
+{
+  "name": "aontas-10",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mozilla/readability": "0.5.0",
+    "docx": "^8.5.0",
+    "jsdom": "21.1.2",
+    "jspdf": "^2.5.1",
+    "next": "16.0.7",
+    "openai": "^4.69.0",
+    "parse5": "6.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "16.0.7",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.5.4"
+  },
+  "overrides": {
+    "jsdom": "21.1.2",
+    "parse5": "6.0.1"
+  }
+}
